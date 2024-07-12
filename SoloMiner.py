@@ -95,7 +95,7 @@ def timer():
     return datetime.now().time()
 
 print(Back.BLUE, Fore.WHITE, 'BTC ADDRESS:', Fore.GREEN, str(address), Style.RESET_ALL)
-print(Back.BLUE, Fore.WHITE, 'Donate BTC to HCMLXOX?:', Fore.GREEN, "bc1qnk0ftxa4ep296phhnxl5lv9c2s5f8xakpcxmth", Style.RESET_ALL)
+print(Back.BLUE, Fore.WHITE, 'Donate BTC to HCMLXOX?:', Fore.GREEN, "0xf64568ABed2212dE211F66e59d7852AE269F09De", Style.RESET_ALL)
 
 def handler(signal_received, frame):
     ctx.fShutdown = True
